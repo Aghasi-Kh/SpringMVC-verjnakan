@@ -18,4 +18,7 @@ public interface Pages {
     String START_URL = "/";
 
     String COMMENT_PAGE = "/secure/comments";
+
+    String CARD_PAGE = "/secure/cards";
+
 }

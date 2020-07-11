@@ -35,7 +35,9 @@ public class CommentController {
     }
 
     @PostMapping("/comments/add")
-    public ModelAndView add(@SessionAttribute("user") User user, @RequestParam String name, @RequestParam String description) {
+    public ModelAndView add(@SessionAttribute("user") User user,
+                            @RequestParam String name,
+                            @RequestParam String description) {
         try {
             Comment comment = new Comment();
             comment.setName(name);

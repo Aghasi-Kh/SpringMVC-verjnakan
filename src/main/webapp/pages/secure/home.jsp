@@ -32,6 +32,8 @@
 </form>
 
 <a href="<%=request.getServletContext().getContextPath()%>/secure/comments">comments</a>
+<a href="<%=request.getServletContext().getContextPath()%>/secure/cards">cards</a>
+
 <br><br>
 
 
